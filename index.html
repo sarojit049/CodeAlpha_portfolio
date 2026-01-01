@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saroj Kumar - Web Developer Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="container">
+        <div class="logo">SK</div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="navMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Saroj Kumar</h1>
+        <h2>Aspiring Web Developer</h2>
+        <p>I build responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>Hi! I'm Saroj Kumar, a B.Tech Information Technology student with a passion for web development.</p>
+            <p>I believe in consistent learning and building real-world projects.</p>
+            <p>I'm actively seeking web development internships.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><div class="skill-icon">📄</div><h3>HTML</h3><p>Semantic markup</p></div>
+            <div class="skill-card"><div class="skill-icon">🎨</div><h3>CSS</h3><p>Responsive design</p></div>
+            <div class="skill-card"><div class="skill-icon">⚡</div><h3>JavaScript</h3><p>DOM manipulation</p></div>
+            <div class="skill-card"><div class="skill-icon">🔧</div><h3>Git & GitHub</h3><p>Version control</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section class="projects" id="projects">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Portfolio Website</h3>
+                    <p>Modern and responsive portfolio website.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://my-portfolio-srl.netlify.app" class="project-btn">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Calculator App</h3>
+                    <p>Basic arithmetic calculator.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://calculator-appc.netlify.app/" class="project-btn">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>Image Gallery</h3>
+                    <p>Responsive gallery with hover effects.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="https://sarojit049.github.io/CodeAlpha_Image-Gallery/" class="project-btn">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-content">
+                    <h3>To-Do App</h3>
+                    <p>Task manager using local storage.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="project-btn">Live Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<!-- Contact -->
+<section class="contact" id="contact">
+    <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact-content">
+            <p>Have a question, project idea, or opportunity?  
+               Feel free to send me a message.</p>
+
+            <!-- Contact Form -->
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </div>
+
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+            <div class="form-group">
+                <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+
+    <button type="submit" class="contact-btn">Send Message</button>
+    <p class="form-status" id="formStatus"></p>
+    </form>
+
+
+            <!-- Social Links -->
+            <div class="contact-links">
+                <a href="mailto:sarojkumar3317@outlook.com" class="contact-link">
+                    <span class="contact-icon">📧</span>Email
+                </a>
+                <a href="https://www.linkedin.com/in/saroj-kumar-017948314/" target="_blank" class="contact-link">
+                    <span class="contact-icon">💼</span>LinkedIn
+                </a>
+                <a href="https://github.com/sarojit049" target="_blank" class="contact-link">
+                    <span class="contact-icon">🐙</span>GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Saroj Kumar. Built with passion.</p>
+    </div>
+</footer>
+
+<!-- JS -->
+ <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
